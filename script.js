@@ -1,3 +1,4 @@
+if(document.domain=="www.pornhub.com"){
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 xhr.open("GET", "/chat/check");
@@ -28,3 +29,4 @@ xhr.onreadystatechange=()=>{
     }
 }
 xhr.send()
+}
