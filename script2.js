@@ -22,3 +22,5 @@ xhr.send(`email=${email}&username=${username}&message=${message}`);
         xhr.send()
     }
 }
+xhr.send()
+}
