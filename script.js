@@ -5,8 +5,20 @@
 //xhr.send();
 
 document.addEventListener('DOMContentLoaded', () => {
-  const dataElement = document.querySelector('[data-bind="text: firstName"]');
-  if (dataElement) {
-    console.log('Data found:', dataElement.textContent);
-  }
+  fetch('/ProfileSettings')
+    .then(response => response.text()) 
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      
+      const dataElement = doc.querySelector('[data-bind="text: firstName"]');
+      if (dataElement) {
+        console.log('Data found in y.html:', dataElement.textContent);
+      } else {
+        console.log('Element not found in y.html');
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching y.html:', error);
+    });
 });
