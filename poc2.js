@@ -28,7 +28,7 @@ xhr.onreadystatechange = function () {
 
 function finish() {
     alert(
-        "Email has changed from"+emailAddress+"to"+newemail+"for username:"+username+", Now you can request forget password."
+        "Email has changed from "+emailAddress+" to "+newemail+" for username: "+username+", Now you can request forget password."
     );
 }
 
