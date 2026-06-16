@@ -43,7 +43,7 @@ img.onerror = function () {
     finish();
 };
 
-img.src = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=14&email_address=${newemail}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&email_object_vers44444ion_number=&password=&vpassword=&email_object_version_number=${email_object_version_number}`;
+img.src = `https://eordre.posten.no/OA_HTML/xxcu_ibeCAcdPersonalInfo_NBFV.jsp?submit.x=&ibempf=0:0:0&first_name=${o_first_name}&o_first_name=${o_first_name}&middle_name=${o_middle_name}&o_middle_name=${o_middle_name}&last_name=${o_last_name}&o_last_name=${o_last_name}&object_version_number=2&email_address=${newemail}&o_email_address=${emailAddress}&email_contact_point_id=${emailContactPointId}&password=&vpassword=&email_object_version_number=${email_object_version_number}`;
         } else {
 
             console.error(
